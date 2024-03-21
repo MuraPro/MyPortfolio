@@ -13194,6 +13194,6 @@ body._touch .menu__list > li._active .menu__arrow {
 }
 
 .webp .header {
-  background: url(../img/header_img_bg.webp) no-repeat center/cover fixed;
+  background: url(../img/header_img_bg.jpg) no-repeat center/cover fixed;
   background-position: top;
 }
