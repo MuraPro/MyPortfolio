@@ -64,7 +64,7 @@ body._lock {
     url('../fonts/Product-Sans-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
-}
+} /* Icons */
 .icon-html::before {
   content: '\f13b';
   font-family: 'fa-brands';
@@ -179,7 +179,7 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: 400;
-}
+} /*--------------------*/ /*! * Bootstrap v5.0.0-alpha2 (https://getbootstrap.com/) * Copyright 2011-2020 The Bootstrap Authors * Copyright 2011-2020 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE) */
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -5685,7 +5685,7 @@ fieldset:disabled .btn {
   --gray-dark: #282929;
   --dark: #1f2020;
   --gray: #a5a6a6;
-}
+} /* header */
 .header {
   width: 100%;
   background: url('../img/header_img_bg.jpg') no-repeat center/cover fixed;
@@ -5811,7 +5811,7 @@ fieldset:disabled .btn {
 }
 .menu__arrow {
   display: none;
-}
+} /* section-text */
 .content {
   width: 100%;
   min-height: 100vh;
@@ -5861,7 +5861,7 @@ fieldset:disabled .btn {
 .content__text a {
   color: yellow;
   text-decoration: none;
-}
+} /* content__slider */
 .content__slider {
   width: 100%;
   min-height: 200px;
@@ -5926,7 +5926,7 @@ fieldset:disabled .btn {
 .content__slider .icon-chevrone-left::after,
 .content__slider .icon-chevrone-right::after {
   color: var(--gray);
-}
+} /* content__tabs */
 .content__tabs .nav a {
   padding: 14px 29px;
   border-radius: 30px;
@@ -6009,7 +6009,7 @@ fieldset:disabled .btn {
 }
 .tab-pane__btn:hover {
   color: var(--white);
-}
+} /* accordion */
 .accordion__item button {
   width: 100%;
   background: var(--yellow-dark);
@@ -6096,7 +6096,7 @@ body._touch .menu__list > li._active .menu__arrow {
   -webkit-transform: rotate(-180deg);
   -ms-transform: rotate(-180deg);
   transform: rotate(-180deg);
-}
+} /* footer */
 .footer {
   width: 100%;
   background: var(--dark);
@@ -6120,7 +6120,7 @@ body._touch .menu__list > li._active .menu__arrow {
   color: var(--white);
   padding: 15px;
   text-decoration: none;
-}
+} /* media */
 @media (min-width: 576px) {
   .container,
   .container-sm {
