@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preload" href="path/to/header_img_bg.webp" as="image" type="image/webp">
+    <link rel="preload" href="path/to/header_img_bg.jpg" as="image" type="image/jpeg">
+    <link rel="stylesheet" href="css/style.min.css" type="text/css">
+    <title>Portfolio</title>
+</head>
+
+
+<body> 
+    <div class="wrapper">
+        <header class="header">
+    <div class="header__container">
+        <div class="container">
+            <a href="#" class="header__logo">my<span>works</span></a>
+            <div class="header__menu menu">
+                <div class="menu__icon">
+                    <span></span>
+                </div>
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li><a data-goto=".page_1" href="#" class="menu__link">история</a></li>
+                        <li><a data-goto=".page_2" href="#" class="menu__link">работы</a></li>
+                        <li><a data-goto=".page_3" href="#" class="menu__link">контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="header__text container-xl d-flex flex-column justify-content-center">
+        <h1>Портфолио</h1>
+        <h2>Добро пожаловать на мою страничку</h2>
+    </div>
+</header>
+        <section class="content">
+    <div class="content__text">
+        <div class="container-xl">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 d-flex flex-column align-items-center">
+                    <h3>история</h3>
+                    <p> Здравствуйте меня зовут Дильмурад. Разиваюсь по направлению фронтенд разработки. На данном этапе работаю на следующем стеке технологий: <span>React, Redux, TypeScript</span> с применением <span>Redux-Toolkit, RTK-Query.</span> Имею понимание архитектуры <span>Rest Api</span> для работы с сервером, а так же есть понимание и практика по <span>GraphQl,</span> изучил работу с библиотекой для React компонентов <span>Ant Design,</span> а так же <span>Bootstrap 5.</span>  Стандартная база знаний нативной разработки - <span>HTML, CSS, JavaScript(ES6 включительно)</span> препроцессор <span>SCSS.</span> Ниже можно ознакомиться с моими работами касаемо врестки веб сайтов, а так же плагины на свободную тему реализованные на <span>React.</span> </p>
+                    <a href="#" class="page_1"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider -->
+    <div class="content__slider">
+        <div class="container-xl">
+            <div id="mySlider" class="carousel slide" data-ride="carousel" data-interval="false">
+                <div class="row">
+                    <div class="col-lg-1">
+                        <a class="carousel-control-prev" href="#mySlider" data-slide="prev">
+                            <span class="icon-chevrone-left"></span>
+                        </a>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <picture><source srcset="img/proweb1.webp" type="image/webp"><img src="img/proweb1.jpg" alt=""></picture>
+                                    </div>
+                                    <div class="col-lg-7 carousel_text">
+                                        <h3>обучение в <span><a href="https://proweb.uz/?utm_source=google&utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_content=674917148616&utm_term=proweb&gclid=CjwKCAjw-KipBhBtEiwAWjgwrMt7w9lw0fHTicqHkZyJwEkbnq0KRb3UPblqGNQQQiiwY3a8y0bkAhoCkaYQAvD_BwE">PROWEB</a></span></h3>
+                                        <p>За время обучения в учебном центре PROWEB нас ознакомили со стандартным стеком технологий, необходимых для нативной разработки и верстки веб сайтов. Уроки проводились в комфортных аудиториях с современным оборудованием, имелась возможность онлайн обучения с качественной передачей трансляции урока. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <picture><source srcset="img/proweb2.webp" type="image/webp"><img src="img/proweb2.jpg" alt=""></picture>
+                                    </div>
+                                    <div class="col-lg-7 carousel_text">
+                                        <h3>обучение в <span><a href="https://kata.academy/">Kata Academy</a></span></h3>
+                                        <p> Учиться в Kata Academy приходилось много. Я одновременно работал и учился по 3-4 часа после работы. Было тяжеловато. Обучение построено таким образом что ты сам учишься искать нужную информацию, разбираться самостоятельно и решать возникающие проблемы. Думаю что на работе этот навык очень пригодится. Сильная подготовка к собеседованиям, процесс сдачи по зачетам построен так, что ты привыкаешь отвечать на вопросы быстро и четко.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <picture><source srcset="img/proweb3.webp" type="image/webp"><img src="img/proweb3.jpg" alt=""></picture>
+                                    </div>
+                                    <div class="col-lg-7 carousel_text">
+                                        <h3>Самообразование</h3>
+                                        <p> Главная проблема Самообразования, которая все-таки остается, – это отсутствие фидбека о своем развитии.Но тут есть выход – это консультации, либо менторство некого специалиста в сфере, которую изучаешь. Время от времени я нанимал ментора, но таким образом за небольшие деньги я получал информацию о текущем состоянии моих знаний, получал ревю моих работ и проходил тестовые собеседования.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1">
+                        <a class="carousel-control-next" href="#mySlider" data-slide="next">
+                            <span class="icon-chevrone-right"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content__text">
+        <div class="container-xl">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 d-flex flex-column align-items-center">
+                    <h3>Работы</h3>
+                    <p>Представляю образцы созданных мною плагинов и сайтов на начальном этапе обучения</p>
+                    <a name="works"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tabs -->
+    <div class="content__tabs">
+        <div class="container-xl">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="nav d-flex flex-wrap justify-content-around">
+                        <a data-toggle="tab" href="#dota" class="active">Dota Heroes</a>
+                        <a data-toggle="tab" href="#aviasales" >Aviasales</a>
+                        <a data-toggle="tab" href="#blog">Blog Platform</a>
+                        <a data-toggle="tab" href="#movies">Movies App</a>
+                        <a data-toggle="tab" href="#todo">Todo App</a>
+                        <a data-toggle="tab" href="#macintosh">Macintosh</a>
+                        <a data-toggle="tab" href="#travels">Tashkent-travels</a>
+                        <a data-toggle="tab" href="#street88">Burger-House</a>
+                        <a data-toggle="tab" href="#pizzeria">pizzeria</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="page_2"></a>
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="dota">
+                <div class="container-xl">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="tab-pane__img">
+                                <picture><source srcset="img/Dota2.webp" type="image/webp"><img src="img/Dota2.jpg" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="tab-pane__content d-flex flex-column justify-content-between align-items-start">
+                                <div class="tab-pane__text">
+                                    <h3>Dota 2</h3>
+                                    <p>Информационный сайт об персонажах игры Dota2, React + Redux toolkit, Lazy loading. <a
+                                            href="https://fast-company-firebase-67333.web.app/">Dota 2.</a>
+                                    </p>
+                                </div>
+                                <a href="https://fast-company-firebase-67333.web.app/"
+                                    class="tab-pane__btn">подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="aviasales">
+                <div class="container-xl">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="tab-pane__img">
+                                <picture><source srcset="img/aviasales.webp" type="image/webp"><img src="img/aviasales.jpg" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="tab-pane__content d-flex flex-column justify-content-between align-items-start">
+                                <div class="tab-pane__text">
+                                    <h3>Aviasales</h3>
+                                    <p>Плагин Aviasales, React + Redux toolkit, Lazy loading. Фильтрация билетов. <a
+                                            href="https://aviasels-plugin.vercel.app/">Aviasales.</a>
+                                    </p>
+                                </div>
+                                <a href="https://aviasels-plugin.vercel.app/"
+                                    class="tab-pane__btn">подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show " id="blog">
+                <div class="container-xl">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="tab-pane__img">
+                                <picture><source srcset="img/blog.webp" type="image/webp"><img src="img/blog.jpg" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="tab-pane__content d-flex flex-column justify-content-between align-items-start">
+                                <div class="tab-pane__text">
+                                    <h3>Blog Platform</h3>
+                                    <p>Тестовая блог платформа с возможнастью авторизации. React + Redux. <a
+                                            href="https://blog-platform-gamma-coral.vercel.app/articles">Blog.</a>
+                                    </p>
+                                </div>
+                                <a href="https://blog-platform-gamma-coral.vercel.app/articles"
+                                    class="tab-pane__btn">подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show " id="movies">
+                <div class="container-xl">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="tab-pane__img">
+                                <picture><source srcset="img/movies.webp" type="image/webp"><img src="img/movies.jpg" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="tab-pane__content d-flex flex-column justify-content-between align-items-start">
+                                <div class="tab-pane__text">
+                                    <h3>Movies App</h3>
+                                    <p>Плагин сайта видеофильмов с поиском и возможностью оценки рейтинга фильма. React. <a
+                                            href="https://incomparable-dragon-0545b4.netlify.app/">Movies.</a>
+                                    </p>
+                                </div>
+                                <a href="https://incomparable-dragon-0545b4.netlify.app/"
+                                    class="tab-pane__btn">подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show " id="todo">
+                <div class="container-xl">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="tab-pane__img">
+                                <picture><source srcset="img/todo.webp" type="image/webp"><img src="img/todo.jpg" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="tab-pane__content d-flex flex-column justify-content-between align-items-start">
+                                <div class="tab-pane__text">
+                                    <h3>Todo App</h3>
+                                    <p>Todo это простой способ взять дела на карандашик. В течении дня вы можете просто двигаться по двумерному списку с чекбоксами, и отмечать выполненное. React, применение хуков. <a
+                                            href="https://snazzy-capybara-024fb8.netlify.app/">Todo.</a>
+                                    </p>
+                                </div>
+                                <a href="https://snazzy-capybara-024fb8.netlify.app/"
+                                    class="tab-pane__btn">подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show " id="macintosh">
+                <div class="container-xl">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="tab-pane__img">
+                                <picture><source srcset="img/macintosh.webp" type="image/webp"><img src="img/macintosh.jpg" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="tab-pane__content d-flex flex-column justify-content-between align-items-start">
+                                <div class="tab-pane__text">
+                                    <h3>Макет Macintosh</h3>
+                                    <p>Адаптивный многостраничный сайт. <a
+                                            href="https://murapro.github.io/Practice_file_2-Macintosh-/">Macintosh.</a>
+                                    </p>
+                                </div>
+                                <a href="https://murapro.github.io/Practice_file_2-Macintosh-/"
+                                    class="tab-pane__btn">подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="travels">
+                <div class="container-xl">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="tab-pane__img">
+                                <picture><source srcset="img/tashkent-travels.webp" type="image/webp"><img src="img/tashkent-travels.jpg" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="tab-pane__content d-flex flex-column justify-content-between align-items-start">
+                                <div class="tab-pane__text">
+                                    <h3>Макет Tashkent-Travels</h3>
+                                    <p>Адаптивный лендинг главной страницы туристической фирмы. <a
+                                            href="https://murapro.github.io/Practice_file_4-Travels-/">Tashkent-Travels.</a>
+                                    </p>
+                                </div>
+                                <a href="https://murapro.github.io/Practice_file_4-Travels-/"
+                                    class="tab-pane__btn">подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="street88">
+                <div class="container-xl">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="tab-pane__img">
+                                <picture><source srcset="img/burger.webp" type="image/webp"><img src="img/burger.jpg" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="tab-pane__content d-flex flex-column justify-content-between align-items-start">
+                                <div class="tab-pane__text">
+                                    <h3>Макет Burger-House</h3>
+                                    <p>Адаптивный лендинг интернет магазина фаст-фуда с доставкой. <a
+                                            href="https://murapro.github.io/Practice_file_1-Burger-/">Burger-House.</a>
+                                    </p>
+                                </div>
+                                <a href="https://murapro.github.io/Practice_file_1-Burger-/"
+                                    class="tab-pane__btn">подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="pizzeria">
+                <div class="container-xl">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="tab-pane__img">
+                                <picture><source srcset="img/pizza.webp" type="image/webp"><img src="img/pizza.jpg" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="tab-pane__content d-flex flex-column justify-content-between align-items-start">
+                                <div class="tab-pane__text">
+                                    <h3>Макет Pizzeria</h3>
+                                    <p>Адаптивный лендинг главной страницы интернет магазина пиццы с доставкой. <a
+                                            href="https://murapro.github.io/Practice_file_3-Pizza/">Pizzeria.</a>
+                                    </p>
+                                </div>
+                                <a href="https://murapro.github.io/Practice_file_3-Pizza/"
+                                    class="tab-pane__btn">подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content__text">
+        <div class="container-xl">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 d-flex flex-column align-items-center">
+                    <h3>возможности</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content__accordion">
+        <div class="container-xl">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10 ">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion__item">
+                            <button class="collapsed" type="button" data-toggle="collapse" data-target="#react">
+                                <span class="icon-html">React</span>
+                            </button>
+
+                            <div id="react" class="collapse collapse__text" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>React — это JavaScript-библиотека для создания пользовательских интерфейсов.Главной задачей React является упрощение процесса создания больших приложений. React ориентирован на компонентный подход в разработке.
+                                        React решает задачу быстродействия приложения, делая его более быстрым и менее ресурсоемким благодаря использованию виртуального DOM.40% разработчиков сайтов используют в работе React — это данные исследовательского отдела Statista.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button class="collapsed" type="button" data-toggle="collapse" data-target="#antd">
+                                <span class="icon-html">Ant Design </span>
+                            </button>
+
+                            <div id="antd" class="collapse collapse__text" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>Ant Design – это система с открытым исходным кодом для создания веб-приложений с набором крутых готовых компонентов React. Согласно официальной документации, перечень функций выглядит следующим образом - ресурсы и инструменты для разработки, поддержка десятков языков, мощная детальная настройка темы.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button class="collapsed" type="button" data-toggle="collapse" data-target="#html">
+                                <span class="icon-html">HTML5</span>
+                            </button>
+
+                            <div id="html" class="collapse collapse__text" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>HTML5 — это не продолжатель языка разметки гипертекста, а новая открытая
+                                        платформа,
+                                        предназначенная для создания веб-приложений использующих аудио, видео, графику,
+                                        анимацию и многое
+                                        другое.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button class="collapsed" type="button" data-toggle="collapse" data-target="#css">
+                                <span class="icon-css">CSS3</span>
+                            </button>
+
+                            <div id="css" class="collapse collapse__text" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>По пути, спецификация CSS стала более сложной и с более широким диапазоном
+                                        охвата. Описание
+                                        версии CSS 2.1 было в пять раз больше по сравнению с описанием предыдущей. К
+                                        счастью, создатели
+                                        стандарта CSS3 пошли иным путем, нежели обычное увеличение описания будущих
+                                        возможностей. Они
+                                        распределили усовершенствованные функции следующего поколения по наборам
+                                        индивидуальных
+                                        стандартов, называющихся модулями.
+
+                                        Таким образом, разработчики браузеров могут реализовывать наиболее интересные и
+                                        популярные части
+                                        стандарта в первую очередь (что они и так уже делали, с модулями или без них).
+                                        Всем этим новым
+                                        модулям CSS было присвоено коллективное название CSS3.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button class="collapsed" type="button" data-toggle="collapse" data-target="#bootstrap">
+                                <span class="icon-html">BOOTSTRAP5</span>
+                            </button>
+
+                            <div id="bootstrap" class="collapse collapse__text" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>Bootstrap — это открытый и бесплатный HTML, CSS и JS фреймворк, который
+                                        используется
+                                        веб-разработчиками для быстрой вёрстки адаптивных дизайнов сайтов и
+                                        веб-приложений.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- content end -->
+
+</section>
+        <!-- footer -->
+<footer class="footer">
+    <div class="container-xl d-flex flex-column align-items-center">
+        <a href="#" class="footer__logo">my<span>works</span></a>
+
+        <ul class="footer__list">
+            <li><a href="#">История</a></li>
+            <li><a href="#">Работы</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+
+        <div class="footer__contact">
+            <a name="contact"></a>
+            <a href="#">+ 998 99 127-53-90</a>
+            <a href="#" class="page_3">Chalanamdo@gmail.com</a>
+            <a href="https://github.com/MuraPro" class="page_3">GitHub</a>
+            <a href="http://t.me/InsideNett" class="page_3">Telegram</a>
+        </div>
+    </div>
+</footer>
+<!-- footer-end -->
+    </div>
+
+    <script src="js/script.min.js"></script>
+</body>
+
+</html>
