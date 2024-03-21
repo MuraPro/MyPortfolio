@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <link rel="preload" href="path/to/header_img_bg.webp" as="image" type="image/webp">
-    <link rel="preload" href="path/to/header_img_bg.jpg" as="image" type="image/jpeg">
-    <link rel="stylesheet" href="css/style.min.css" type="text/css">
-    <title>Portfolio</title>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="preload" href="path/to/header_img_bg.webp" as="image" type="image/webp">
+  <link rel="preload" href="path/to/header_img_bg.jpg" as="image" type="image/jpeg">
 
+  <link rel="stylesheet" href="css/style.min.css" type="text/css">
+</head>
+<body>
 
 <body> 
     <div class="wrapper">
         <header class="header">
-    <div class="header__container">
-        <div class="container">
+    <nav class="header__container">
+        <div class="container header__block">
             <a href="#" class="header__logo">my<span>works</span></a>
             <div class="header__menu menu">
-                <div class="menu__icon">
+               <div class="menu__icon">
                     <span></span>
-                </div>
-                <nav class="menu__body">
+                </div> 
+                 <div class="menu__body">
                     <ul class="menu__list">
                         <li><a data-goto=".page_1" href="#" class="menu__link">история</a></li>
                         <li><a data-goto=".page_2" href="#" class="menu__link">работы</a></li>
                         <li><a data-goto=".page_3" href="#" class="menu__link">контакты</a></li>
                     </ul>
-                </nav>
+                </div> 
+                
             </div>
         </div>
-    </div>
+    </nav>
     <div class="header__text container-xl d-flex flex-column justify-content-center">
         <h1>Портфолио</h1>
         <h2>Добро пожаловать на мою страничку</h2>
@@ -453,17 +456,15 @@
 <footer class="footer">
     <div class="container-xl d-flex flex-column align-items-center">
         <a href="#" class="footer__logo">my<span>works</span></a>
-
         <ul class="footer__list">
-            <li><a href="#">История</a></li>
-            <li><a href="#">Работы</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li><a data-goto=".page_1" href="#">История</a></li>
+            <li><a data-goto=".page_2" href="#">Работы</a></li>
+            <li><a data-goto=".page_3" href="#">Контакты</a></li>
         </ul>
-
         <div class="footer__contact">
             <a name="contact"></a>
-            <a href="#">+ 998 99 127-53-90</a>
-            <a href="#" class="page_3">Chalanamdo@gmail.com</a>
+            <a href="tel:+998991275390">+ 998 99 127-53-90</a>
+            <a href="https://www.google.com/intl/ru/gmail/about/" class="page_3" >Chalanamdo@gmail.com</a>
             <a href="https://github.com/MuraPro" class="page_3">GitHub</a>
             <a href="http://t.me/InsideNett" class="page_3">Telegram</a>
         </div>
