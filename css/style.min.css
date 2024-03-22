@@ -5689,7 +5689,7 @@ fieldset:disabled .btn {
 .header {
   width: 100%;
   background: url('../img/header_img_bg.jpg');
-  background-position: top;
+  background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -10857,8 +10857,8 @@ body._touch .menu__list > li._active .menu__arrow {
   }
 }
 .webp .header {
-  background-image: url('../img/header_img_bg.jpg');
-  background-position: top;
+  background-image: url('../img/header_img_bg.webp');
+  background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
