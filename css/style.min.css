@@ -5688,7 +5688,7 @@ fieldset:disabled .btn {
 } /* header */
 .header {
   width: 100%;
-  background: url('../img/header_img_bg.jpeg');
+  background: url('../img/header_img_bg.jpg');
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -10857,7 +10857,7 @@ body._touch .menu__list > li._active .menu__arrow {
   }
 }
 .webp .header {
-  background-image: url('../img/header_img_bg.jpeg');
+  background-image: url('../img/header_img_bg.webp');
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
